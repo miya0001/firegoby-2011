@@ -45,6 +45,62 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
     font-weight: bolder;
 }
 
+/* Parallax */
+header
+{
+    overflow: hidden;
+}
+
+#parallax
+{
+    width: 1000px;
+    height: 288px;
+    position: relative;
+    overflow: hidden;
+}
+
+#parallax-01
+{
+    width: 1200px;
+    height: 350px;
+}
+#parallax-01 img
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#parallax-02
+{
+    width: 768px;
+    height: 200px;
+}
+#parallax-02 img
+{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    right: -20px;
+    bottom: -20px;
+}
+
+#parallax-03
+{
+    width: 300px;
+    height: 128px;
+}
+#parallax-03 img
+{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* adsense */
+
 .adb
 {
     float: left;

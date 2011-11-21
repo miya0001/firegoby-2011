@@ -48,7 +48,7 @@
 <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=20111121-04" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=20111122-01" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -77,15 +77,17 @@
 				<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</hgroup>
 
-			<?php
-				// Check to see if the header image has been removed
-				$header_image = get_header_image();
-				if ( ! empty( $header_image ) ) :
-			?>
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
-			</a>
-			<?php endif; // end check for removed header image ?>
+<div id="parallax">
+    <div id="parallax-01">
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/bg.png" alt="" />
+    </div>
+    <div id="parallax-02">
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/fish.png" alt="" />
+    </div>
+    <div id="parallax-03">
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/diver.png" alt="" />
+    </div>
+</div>
 
 			<?php
 				// Has the text been hidden?
