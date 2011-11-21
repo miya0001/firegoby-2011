@@ -99,6 +99,26 @@ header
     top: 0px;
 }
 
+@media screen and (max-width: 480px) {
+#parallax
+{
+    height: 200px;
+}
+#parallax-02
+{
+    width: 1200px;
+    height: 350px;
+}
+#parallax-02 img
+{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 280px;
+    top: 140px;
+}
+}
+
 /* adsense */
 
 .adb
