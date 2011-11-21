@@ -1,0 +1,48 @@
+/*
+Theme Name: firegoby
+Template: twentyeleven
+*/
+
+#site-title a
+{
+    font-size: 64px;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: normal;
+}
+
+#site-description
+{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.entry-title
+{
+    line-height: 1.25em !important;
+    font-size: 26px !important;
+}
+
+.hentry h2
+{
+    font-size: 20px;
+    font-weight: bolder;
+    border-left: 4px solid #555555;
+    margin-left: -10px;
+    padding-left: 6px;
+}
+
+.hentry h3
+{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.adb
+{
+    float: left;
+}
+
+.adc
+{
+    float: right;
+}
