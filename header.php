@@ -87,6 +87,9 @@
     <div id="parallax-03" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/diver.png" alt="" />
     </div>
+    <div id="parallax-04" class="parallax-layer">
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/shark.png" alt="" />
+    </div>
 </div>
 
 			<?php

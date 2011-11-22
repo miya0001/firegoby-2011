@@ -59,11 +59,16 @@ header
     overflow: hidden;
 }
 
+#parallax .parallax-layer,
+#parallax .parallax-layer img
+{
+    position: absolute;
+}
+
 #parallax-01
 {
     width: 1200px;
     height: 350px;
-    position: absolute;
 }
 #parallax-01 img
 {
@@ -76,7 +81,6 @@ header
 {
     width: 768px;
     height: 200px;
-    position: absolute;
     right: 10px;
     bottom: 10px;
 }
@@ -84,7 +88,6 @@ header
 {
     width: 128px;
     height: 128px;
-    position: absolute;
     right: 10px;
     bottom: 10px;
 }
@@ -93,15 +96,26 @@ header
 {
     width: 300px;
     height: 128px;
-    position: absolute;
 }
 #parallax-03 img
 {
     width: 128px;
     height: 128px;
-    position: absolute;
     left: 0px;
     top: 0px;
+}
+
+#parallax-04
+{
+    width: 788px;
+    height: 228px;
+}
+#parallax-04 img
+{
+    width: 212px;
+    height: 219px;
+    left: -212px;
+    top: 80px;
 }
 
 @media screen and (max-width: 1024px) {
