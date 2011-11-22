@@ -82,13 +82,16 @@
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/blue-bg.png" alt="" />
     </div>
     <div id="parallax-02" class="parallax-layer">
-        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/fish.png" alt="" />
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/fishes.png" alt="" />
     </div>
     <div id="parallax-03" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/diver.png" alt="" />
     </div>
     <div id="parallax-04" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/shark.png" alt="" />
+    </div>
+    <div id="parallax-05" class="parallax-layer">
+        <img src="<?php bloginfo("stylesheet_directory"); ?>/img/needle.png" alt="" />
     </div>
 </div>
 
