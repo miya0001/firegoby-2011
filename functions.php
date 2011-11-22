@@ -29,14 +29,14 @@ public function after_setup_theme()
     );
     wp_register_script(
         'jquery-jparallax',
-        get_bloginfo("stylesheet_directory").'/js/jquery.jparallax.min.js',
+        get_stylesheet_directory_uri().'/js/jquery.jparallax.min.js',
         array('jquery'),
         '1.1-20111122',
         true
     );
     wp_register_script(
         'firegoby',
-        get_bloginfo("stylesheet_directory").'/js/firegoby.js',
+        get_stylesheet_directory_uri().'/js/firegoby.js',
         array('jquery-jparallax'),
         '20111122-1',
         true
