@@ -48,7 +48,7 @@
 <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri(); ?>/style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=20111122-03" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?ver=<?php echo filemtime(dirname(__FILE__).'/style.css'); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
@@ -78,13 +78,13 @@
 			</hgroup>
 
 <div id="parallax">
-    <div id="parallax-01">
+    <div id="parallax-01" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/bg.png" alt="" />
     </div>
-    <div id="parallax-02">
+    <div id="parallax-02" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/fish.png" alt="" />
     </div>
-    <div id="parallax-03">
+    <div id="parallax-03" class="parallax-layer">
         <img src="<?php bloginfo("stylesheet_directory"); ?>/img/diver.png" alt="" />
     </div>
 </div>

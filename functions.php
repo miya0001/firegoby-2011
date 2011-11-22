@@ -8,16 +8,16 @@ function firegoby_setup(){
     wp_deregister_script( 'jquery' );
     wp_register_script(
         'jquery',
-        'http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js',
+        'http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js',
         false,
         null,
         true
     );
     wp_register_script(
         'jquery-jparallax',
-        get_bloginfo("stylesheet_directory").'/js/jquery.jparallax.js',
+        get_bloginfo("stylesheet_directory").'/js/jquery.jparallax.min.js',
         array('jquery'),
-        '0.9.9',
+        '1.1',
         true
     );
     wp_register_script(

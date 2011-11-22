@@ -63,6 +63,7 @@ header
 {
     width: 1200px;
     height: 350px;
+    position: absolute;
 }
 #parallax-01 img
 {
@@ -75,20 +76,24 @@ header
 {
     width: 768px;
     height: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
 #parallax-02 img
 {
     width: 128px;
     height: 128px;
     position: absolute;
-    right: -20px;
-    bottom: -20px;
+    right: 10px;
+    bottom: 10px;
 }
 
 #parallax-03
 {
     width: 300px;
     height: 128px;
+    position: absolute;
 }
 #parallax-03 img
 {
