@@ -1,10 +1,24 @@
 <?php
 
-add_action('after_setup_theme', 'firegoby_setup', 9999);
+new firegoby();
 
-function firegoby_setup(){
+class firegoby {
+
+function __construct()
+{
+    add_action(
+        'after_setup_theme',
+        array(&$this, "after_setup_theme"),
+        9999
+    );
+}
+
+public function after_setup_theme()
+{
     remove_theme_support('custom-header');
     remove_custom_image_header();
+
+    if (!is_admin()) :
     wp_deregister_script( 'jquery' );
     wp_register_script(
         'jquery',
@@ -28,6 +42,8 @@ function firegoby_setup(){
         true
     );
     wp_enqueue_script('firegoby');
+    endif; // is_admin()
 }
 
+}
 // eof
