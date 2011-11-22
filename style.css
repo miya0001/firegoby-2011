@@ -104,6 +104,23 @@ header
     top: 0px;
 }
 
+@media screen and (max-width: 1024px) {
+#parallax-02
+{
+    width: 710px;
+    height: 288px;
+    left: 0px;
+    top: 0px;
+}
+#parallax-02 img
+{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+}
 @media screen and (max-width: 480px) {
 #parallax
 {
@@ -111,16 +128,18 @@ header
 }
 #parallax-02
 {
-    width: 1200px;
-    height: 350px;
+    width: 320px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
 }
 #parallax-02 img
 {
     width: 128px;
     height: 128px;
     position: absolute;
-    left: 280px;
-    top: 140px;
+    right: 10px;
+    bottom: 10px;
 }
 }
 
