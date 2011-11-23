@@ -43,6 +43,7 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 {
     font-size: 16px;
     font-weight: bolder;
+    text-transform: none;
 }
 
 /* Parallax */
