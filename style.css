@@ -144,6 +144,29 @@ header
     bottom: 140px;
 }
 
+/* adsense */
+.ad
+{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.adb
+{
+    float: left;
+}
+
+.adc
+{
+    float: right;
+}
+
+#related abbr
+{
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
 #parallax-02
 {
@@ -161,7 +184,16 @@ header
     bottom: 10px;
 }
 }
+
 @media screen and (max-width: 480px) {
+.wp_social_bookmarking_light
+{
+    display: none;
+}
+.ad
+{
+    float: none;
+}
 #parallax
 {
     height: 200px;
@@ -183,14 +215,3 @@ header
 }
 }
 
-/* adsense */
-
-.adb
-{
-    float: left;
-}
-
-.adc
-{
-    float: right;
-}
