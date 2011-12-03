@@ -90,58 +90,74 @@ header
 
 #parallax-02
 {
-    width: 900px;
-    height: 100px;
+    width: 980px;
+    height: 270px;
     right: 0px;
     bottom: 0px;
 }
 #parallax-02 img
 {
-    width: 238px;
-    height: 88px;
-    right: -40px;
-    bottom: 0px;
+    position: absolute;
+    height: 77px;
+    width: 78px;
+    right: 200px;
+    top: 8px;
 }
 
 #parallax-03
 {
-    width: 400px;
-    height: 150px;
+    width: 1200px;
+    height: 350px;
 }
 #parallax-03 img
 {
-    width: 128px;
-    height: 128px;
-    left: 20px;
-    top: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #parallax-04
 {
-    width: 800px;
-    height: 500px;
+    width: 900px;
+    height: 350px;
 }
 #parallax-04 img
 {
-    width: 212px;
-    height: 219px;
-    left: -212px;
-    top: 80px;
+    position: absolute;
+    height: 119px;
+    width: 128px;
+    left: 150px;
+    bottom: 100px;
 }
 
 #parallax-05
 {
-    width: 1100px;
-    height: 178px;
+    width: 1000px;
+    height: 300px;
     right: 0px;
     bottom: 0px;
 }
 #parallax-05 img
 {
-    width: 19px;
-    height: 181px;
-    right: 300px;
-    bottom: 140px;
+    width: 232px;
+    height: 309px;
+    left: 20px;
+    bottom: 0px;
+}
+
+#parallax-06
+{
+    width: 400px;
+    height: 180px;
+    right: 0px;
+    bottom: 0px;
+}
+#parallax-06 img
+{
+    width: 110px;
+    height: 120px;
+    right: 20px;
+    bottom: 20px;
 }
 
 /* adsense */
@@ -168,20 +184,19 @@ header
 }
 
 @media screen and (max-width: 1024px) {
-#parallax-02
+#parallax-03
 {
-    width: 710px;
-    height: 288px;
-    left: 0px;
-    top: 0px;
+    bottom: 0px;
 }
-#parallax-02 img
+#parallax-04
 {
-    width: 238px;
-    height: 88px;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+    bottom: -30px;
+    right: 50px;
+}
+#parallax-06
+{
+    bottom: 100px;
+    right: 350px;
 }
 }
 
@@ -198,20 +213,14 @@ header
 {
     height: 200px;
 }
-#parallax-02
+#parallax-03
 {
-    width: 320px;
-    height: 200px;
-    left: 0px;
-    top: 0px;
+    bottom: 0px;
 }
-#parallax-02 img
+#parallax-04
 {
-    width: 238px;
-    height: 88px;
-    position: absolute;
-    right: -80px;
-    bottom: 10px;
+    bottom: -30px;
+    right: 50px;
 }
 }
 

@@ -79,19 +79,25 @@
 
 <div id="parallax">
     <div id="parallax-01" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/blue-bg.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bg.png" alt="" />
     </div>
     <div id="parallax-02" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/fishes.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sun.png" alt="" />
     </div>
     <div id="parallax-03" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/diver.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snow.png" alt="" />
+    </div>
+    <div id="parallax-03" class="parallax-layer">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snow.png" alt="" />
     </div>
     <div id="parallax-04" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/shark.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snowman.png" alt="" />
     </div>
     <div id="parallax-05" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/needle.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tree.png" alt="" />
+    </div>
+    <div id="parallax-06" class="parallax-layer">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/santa.png" alt="" />
     </div>
 </div>
 
