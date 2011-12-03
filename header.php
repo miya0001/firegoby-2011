@@ -79,7 +79,7 @@
 
 <div id="parallax">
     <div id="parallax-01" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bg.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/xmas-bg.png" alt="" />
     </div>
     <div id="parallax-02" class="parallax-layer">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sun.png" alt="" />
