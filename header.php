@@ -85,10 +85,7 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/sun.png" alt="" />
     </div>
     <div id="parallax-03" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snow.png" alt="" />
-    </div>
-    <div id="parallax-03" class="parallax-layer">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snow.png" alt="" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snow-bg.png" alt="" />
     </div>
     <div id="parallax-04" class="parallax-layer">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/snowman.png" alt="" />

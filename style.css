@@ -106,7 +106,7 @@ header
 
 #parallax-03
 {
-    width: 1200px;
+    width: 1100px;
     height: 350px;
 }
 #parallax-03 img
@@ -118,7 +118,7 @@ header
 
 #parallax-04
 {
-    width: 900px;
+    width: 850px;
     height: 350px;
 }
 #parallax-04 img
@@ -126,29 +126,29 @@ header
     position: absolute;
     height: 119px;
     width: 128px;
-    left: 150px;
     bottom: 100px;
+    left: 230px;
 }
 
 #parallax-05
 {
-    width: 1000px;
+    width: 1020px;
     height: 300px;
-    right: 0px;
+    left: 20px;
     bottom: 0px;
 }
 #parallax-05 img
 {
     width: 232px;
     height: 309px;
-    left: 20px;
+    left: 0px;
     bottom: 0px;
 }
 
 #parallax-06
 {
-    width: 400px;
-    height: 180px;
+    width: 600px;
+    height: 200px;
     right: 0px;
     bottom: 0px;
 }
