@@ -11,13 +11,20 @@ function __construct()
         array(&$this, "after_setup_theme"),
         9999
     );
+    add_action(
+        'wp_enqueue_scripts',
+        array(&$this, "wp_enqueue_scripts")
+    );
 }
 
 public function after_setup_theme()
 {
     remove_theme_support('custom-header');
     remove_custom_image_header();
+}
 
+public function wp_enqueue_scripts()
+{
     if (!is_admin()) :
     wp_deregister_script( 'jquery' );
     wp_register_script(
