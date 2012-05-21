@@ -167,6 +167,11 @@ header
     display: none;
 }
 
+.shareaholic-show-on-load
+{
+    margin-bottom: 2em;
+}
+
 @media screen and (max-width: 1024px) {
 #parallax-02
 {
