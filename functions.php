@@ -1,5 +1,7 @@
 <?php
 
+load_theme_textdomain('twentyeleven', dirname(__FILE__).'/languages');
+
 new firegoby();
 
 class firegoby {

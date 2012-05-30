@@ -28,6 +28,11 @@ body
     font-family: 'Permanent Marker', cursive;
 }
 
+#nav-single
+{
+    width: 120px !important;
+}
+
 .entry-title
 {
     line-height: 1.25em !important;
