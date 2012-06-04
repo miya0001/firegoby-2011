@@ -13,7 +13,7 @@
     );
     a.pendulum(
         "parallax-03",
-        30,
+        20,
         0,
         "2000ms",
         "ease-in-out",
