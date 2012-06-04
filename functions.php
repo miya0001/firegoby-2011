@@ -44,10 +44,17 @@ public function wp_enqueue_scripts()
         true
     );
     wp_register_script(
+        'alice',
+        get_stylesheet_directory_uri().'/js/alice-min.js',
+        array(),
+        '20120605-01',
+        true
+    );
+    wp_register_script(
         'firegoby',
         get_stylesheet_directory_uri().'/js/firegoby.js',
-        array('jquery-jparallax'),
-        '20111122-1',
+        array('jquery-jparallax', 'alice'),
+        time(),
         true
     );
     wp_enqueue_script('firegoby');
