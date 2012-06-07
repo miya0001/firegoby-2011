@@ -54,7 +54,7 @@ public function wp_enqueue_scripts()
         'firegoby',
         get_stylesheet_directory_uri().'/js/firegoby.js',
         array('jquery-jparallax', 'alice'),
-        '20120605-01',
+        '20120608-01',
         true
     );
     wp_enqueue_script('firegoby');
