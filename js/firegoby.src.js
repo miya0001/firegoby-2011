@@ -2,9 +2,9 @@
     var a = alice.init();
     a.wobble(
         "parallax-02",
-        2,
+        1,
         "topright",
-        "500ms",
+        "2000ms",
         "linear",
         "0ms",
         "infinite",
@@ -13,7 +13,7 @@
     );
     a.pendulum(
         "parallax-03",
-        20,
+        5,
         0,
         "2000ms",
         "ease-in-out",
