@@ -15,6 +15,11 @@ body
 {
 }
 
+#page
+{
+    margin-top: 0;
+}
+
 #site-title a
 {
     font-size: 64px;
@@ -26,6 +31,16 @@ body
 #site-description
 {
     font-family: 'Permanent Marker', cursive;
+}
+
+#nav-single
+{
+    width: 120px !important;
+}
+
+#branding
+{
+    border: none;
 }
 
 .entry-title
@@ -55,6 +70,36 @@ body
     margin-left: -10px !important;
     padding-left: 10px;
 }
+
+
+/* Singular */
+.singular #primary {
+margin: 0 -26.4% 0 0;
+}
+#nav-single {
+display: none;
+}
+.singular .entry-header .entry-meta {
+position: relative;
+}
+.singular .hentry {
+padding: 0;
+}
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {
+width: 100%;
+}
+.singular #content, .left-sidebar.singular #content {
+margin: 0 34% 0 7.6%;
+}
+.singular article .entry-title {
+padding-top: 0;
+}
+.singular .entry-meta .edit-link a {
+right: 0;
+top: 0;
+left: auto;
+}
+
 
 /* Parallax */
 header
@@ -202,10 +247,12 @@ body
     margin: 0;
 }
 
-.wp_social_bookmarking_light
+.hentry div.wp_social_bookmarking_light div
 {
-    display: none;
+    float: none !important;
+    margin: 5px 0 !important;
 }
+
 .ad
 {
     float: none;
