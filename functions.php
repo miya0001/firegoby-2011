@@ -21,8 +21,7 @@ function __construct()
 
 public function after_setup_theme()
 {
-    remove_theme_support('custom-header');
-    remove_custom_image_header();
+    @remove_theme_support('custom-header');
 }
 
 public function wp_enqueue_scripts()

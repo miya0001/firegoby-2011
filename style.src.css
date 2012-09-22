@@ -118,6 +118,26 @@ left: auto;
     margin: 0;
 }
 
+.fbcomments,
+.fb_iframe_widget,
+.fb_iframe_widget[style],
+.fb_iframe_widget iframe[style],
+.fbcomments iframe[style],
+.fb_iframe_widget span{
+    width: 100%! important;
+}
+
+
+/* いいねボタンが着いてる場合は、以下のように絞ったほうがいいみたい */
+.widget-container .fbcomments,
+.widget-container .fb_iframe_widget,
+.widget-container.fb_iframe_widget[style],
+.widget-container .fb_iframe_widget iframe[style],
+.widget-container .fbcomments iframe[style],
+.widget-container .fb_iframe_widget span{
+    width: 100%! important;
+}
+
 /* Parallax */
 header
 {
