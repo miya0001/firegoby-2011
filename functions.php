@@ -17,6 +17,10 @@ function __construct()
         'wp_enqueue_scripts',
         array(&$this, "wp_enqueue_scripts")
     );
+    add_filter(
+        'the_content',
+        array(&$this, "the_content")
+    );
 }
 
 public function after_setup_theme()
@@ -58,6 +62,38 @@ public function wp_enqueue_scripts()
     );
     wp_enqueue_script('firegoby');
     endif; // is_admin()
+}
+
+public function the_content($content)
+{
+    if (is_single()) {
+        $id = get_the_id();
+        $args = array(
+            'exclude' => array($id),
+            'numberposts' => 10,
+            'offset' => 0,
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'orderby' => 'post_date',
+            'order' => 'DESC',
+        );
+        $recents = get_posts($args);
+        $html = '<hr />';
+        $html .= '<h2 class="recent_posts">'.__('Recent Posts').'</h2>';
+        $html .= "<ul>";
+        foreach ($recents as $p) {
+            $html .= sprintf(
+                '<li><a href="%s">%s</a></li>',
+                esc_attr(get_permalink($p->ID)),
+                esc_html(get_the_title($p->ID))
+            );
+        }
+        $html .= "</ul>";
+        $html .= '<hr />';
+
+        $content .= $html;
+    }
+    return $content;
 }
 
 }
