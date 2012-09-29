@@ -232,14 +232,13 @@ header
 /* adsense */
 #footer-ad
 {
-    width: 100%;
-    display: table;
+    text-align: center;
 }
 
 .ad
 {
-    display: table-cell;
-    width: 50%;
+    display: inline-block;
+    margin: 0 10px;
 }
 
 #related abbr
