@@ -110,6 +110,7 @@ left: auto;
 {
     margin: 0 0 0 20px;
     width: 700px;
+    overflow: hidden;
 }
 
 #secondary
@@ -229,19 +230,16 @@ header
 }
 
 /* adsense */
+#footer-ad
+{
+    width: 100%;
+    display: table;
+}
+
 .ad
 {
-    margin: 1em;
-}
-
-.adb
-{
-    float: left;
-}
-
-.adc
-{
-    float: right;
+    display: table-cell;
+    width: 50%;
 }
 
 #related abbr
@@ -270,6 +268,10 @@ header
     right: 10px;
     bottom: 10px;
 }
+#content img
+{
+    max-width: 95%;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -291,10 +293,18 @@ body
     margin: 5px 0 !important;
 }
 
+#footer-ad
+{
+    display: block;
+}
+
 .ad
 {
-    float: none;
+    display: block;
+    margin: 1em auto;
+    width: auto;
 }
+
 #parallax
 {
     height: 200px;
