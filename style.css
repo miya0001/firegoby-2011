@@ -251,6 +251,17 @@ header
     margin-bottom: 2em;
 }
 
+#secondary .textwidget iframe,
+#secondary .hatena-bookmark-widget
+{
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 300px;;
+    display: block;
+}
+
 @media screen and (max-width: 1024px) {
 #parallax-02
 {
