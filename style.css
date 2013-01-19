@@ -340,3 +340,11 @@ body
 }
 }
 
+.gist-data span,
+.gist-data pre
+{
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
