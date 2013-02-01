@@ -340,8 +340,7 @@ body
 }
 }
 
-.gist-data span,
-.gist-data pre
+.gist-data span
 {
     line-height: 20px;
     height: 20px;
